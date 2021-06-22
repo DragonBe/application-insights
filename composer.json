@@ -1,0 +1,27 @@
+{
+    "name": "dragonbe/application-insights",
+    "description": "This Azure Application Insights PHP package offers you a convenient way to send metrics, events, and queries to Azure Application Insights.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azure\\ApplicationInsights\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AzureTest\\ApplicationInsights\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michelangelo van Dam",
+            "email": "dragonbe+github@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*"
+    }
+}
